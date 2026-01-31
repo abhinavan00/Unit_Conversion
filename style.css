@@ -1,0 +1,28 @@
+body {
+    font-family: "Alfa Slab One", serif;
+    background: #1f2a38;
+}
+
+#container {
+    width: 500px;
+    height: 800px;
+    background: linear-gradient(180deg, #9BAFD9 0%, #103783 100%);
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20;
+}
+
+#header {   
+    width: 450px;
+    height: 285px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
